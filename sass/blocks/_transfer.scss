@@ -1,0 +1,238 @@
+.transfer {
+    padding-top: 0;
+
+    @media (max-width: 767px) {
+        padding-bottom: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.transfer-wrapper {
+    width: 1100px;
+    color: #453c41;
+
+    @media (max-width: 1199px) {
+        width: 630px;
+    }
+
+    @media (max-width: 767px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 350px;
+    }
+}
+
+.transfer-title-wrapper {
+    margin-bottom: 80px;
+
+    @media (max-width: 1199px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 30px;
+    }
+}
+
+.transfer-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 60px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 18px;
+    }
+}
+
+.transfer-title-text {
+    width: 520px;
+    font-weight: 400;
+    font-size: 18px;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.transfer-navigation {
+    margin-bottom: 60px;
+    display: flex;
+    gap: 80px;
+
+    @media (max-width: 1199px) {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        gap: 60px;
+    }
+    
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+        gap: 25px;
+    }
+}
+
+.transfer-navigation-title {
+    font-weight: 700;
+    font-size: 40px;
+    cursor: pointer;
+    color: #a6a6a6;
+
+    @media (max-width: 1199px) {
+        font-size: 30px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+}
+
+.transfer-navigation-title.active {
+    font-weight: 700;
+    color: #453c41;
+}
+
+.transfer-navigation-title:hover{
+    transition: 0.3s;
+    color: #453c41;
+}
+
+.text-span-none{
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.group-transfer-content {
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 1199px) {
+        width: 630px;
+        flex-wrap: wrap;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.group-transfer-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        @media (max-width: 767px) {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+.group-transfer-content-item.sukhumi{
+
+    @media (max-width: 1199px) {
+        padding-top: 40px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 20px;
+    }
+}
+
+.transfer-content-item-info {
+    margin-top: 15px;
+
+    @media (max-width: 767px) {
+        margin-top: 8px;
+    }
+}
+
+.transfer-content-item-info-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+}
+
+.transfer-content-item-info-price {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 23px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+}
+
+.transfer-content-item-info-text {
+    font-weight: 400;
+    font-size: 18px;
+
+    @media (max-width: 767px) {
+        font-size: 8px;
+    }
+}
+
+.individual-transfer{
+    display: flex;
+    gap: 100px;
+
+    @media (max-width: 1199px) {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    @media (max-width: 767px) {
+        gap: 20px;
+        width: 100%;
+    }
+}
+
+.individual-title{
+    @media (max-width: 1199px) {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 5px;
+    }
+}
+
+.individual-price{
+    @media (max-width: 1199px) {
+        margin-bottom: 0;
+    }
+}
+
+.individual-info-hide{
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.transfer-button{
+    padding-top: 60px;
+    display: flex;
+
+    @media (max-width: 767px) {
+        padding-top: 30px;
+    }
+}

@@ -1,0 +1,131 @@
+.gallery {
+    @media (max-width: 767px) {
+        padding: 40px 15px;
+    }
+}
+.gallery-wrapper {
+    width: 1300px;
+    overflow: hidden;
+    
+    @media (max-width: 1199px) {
+        width: auto;
+    }
+}
+
+.gallery-title{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 745px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #453c41;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 60px;
+        width: 480px;
+        font-size: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 30px;
+        width: 220px;
+        font-size: 18px;
+    }
+}
+
+.swiper-gallery{
+    position: relative;
+}
+
+.swiper-slide-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    @media (max-width: 1199px) {
+        gap: 20px;
+    }
+
+    @media (max-width: 767px) {
+        gap: 10px;
+    }
+    
+}
+
+.swiper-slide-gallery-image {
+    margin-bottom: 40px;
+    height: 613px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 20px;
+        width: 630px;
+        height: 421px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 100px;
+        width: 100%;
+        height: 187px;
+    }
+}
+.swiper-slide-gallery-image.one-slide{
+
+    @media (max-width: 1199px) {
+        width: 306px;
+        height: 440px;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+        height: 187px;
+    }
+}
+
+.swiper-gallery-prev,
+.swiper-gallery-next {
+    width: 64px;
+    height: 84px;
+    
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.swiper-gallery-prev path,
+.swiper-gallery-next path {
+    stroke-linecap: round; 
+    stroke-linejoin: round;
+    stroke-width: 8px;
+    stroke: #036280;
+}
+
+
+.swiper-gallery-prev:hover path,
+.swiper-gallery-next:hover path {
+    fill: #036280;
+    transition: fill 0.5s ease;
+}
+
+.swiper-gallery-prev::after,
+.swiper-gallery-next::after {
+    display: none;
+}
+
+.swiper-gallery-prev.swiper-button-disabled,
+.swiper-gallery-next.swiper-button-disabled {
+    opacity: 0.7 !important;
+}
+
+.swiper-pagination-gallery{
+    span{
+        opacity: 1;
+        width: 10px;
+        height: 10px;
+        background: #453c41 !important;
+    }
+}
+
+.swiper-pagination-gallery .swiper-pagination-bullet-active{
+    background: #036280 !important;
+}

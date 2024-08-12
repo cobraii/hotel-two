@@ -1,0 +1,94 @@
+.contacts {
+    background-image: url(/hotel-sea/img/contacts-bg.png);
+    background-size: cover;
+    color: #ecf1f7;
+    font-family: "Inter", sans-serif;
+    
+    @media (max-width: 1199px) {
+        background-image: url(/hotel-sea/img/contacts-bg-tablet.png);
+    }
+}
+
+.contacts-wrapper {
+    width: 1100px;
+
+    @media (max-width: 1199px) {
+        width: auto;
+    }
+}
+
+.contacts-title {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 60px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+}
+
+.contacts-data {
+    margin-bottom: 60px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+}
+
+.contacts-data-number {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+
+    @media (max-width: 767px) {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+}
+
+.contacts-data-social-network {
+    display: flex;
+    gap: 20px;
+
+    @media (max-width: 767px) {
+        gap: 10px;
+    }
+
+    img{
+        @media (max-width: 767px) {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+.contacts-map-container{
+    margin-bottom: 40px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+}
+
+.contacts-map iframe{
+    border-radius: 10px;
+
+    @media (max-width: 767px) {
+        width: 290px;
+        height: 180px;
+    }
+}
+
+.contacts-button-container{
+    display: flex;
+}

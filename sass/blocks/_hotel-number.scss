@@ -1,0 +1,361 @@
+.hotel-number {
+    position: relative;
+    background: #036280;
+    color: #453c41;
+
+    @media (max-width: 767px) {
+        padding: 40px 15px;
+    }
+}
+
+.hotel-number-wrapper{
+    overflow: hidden;
+    width: 1100px;
+
+    @media (max-width: 1199px) {
+        width: 630px;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+
+.hotel-number-title{
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #ecf1f7;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+}
+
+.swiper-hotel-number{
+    @media (max-width: 1199px) {
+        position: relative;
+    }
+
+}
+
+.swiper-slide-hotel-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    height: 480px;
+    background-color: #ecf1f7;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+    @media (max-width: 1199px) {
+        border-radius: 10px;
+        margin-bottom: 40px;
+        position: relative;
+        height: auto;
+    }
+}
+
+.hotel-number-content {
+    padding: 60px 30px;
+    display: flex;
+
+    @media (max-width: 1199px) {
+        width: 630px;
+        padding: 40px;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+        padding: 15px;
+        gap: 15px;
+    }
+}
+
+.hotel-number-image {
+    margin-right: 50px;
+    position: relative;
+    overflow-x: hidden;
+    width: 475px;
+    height: 390px;
+    
+    @media (max-width: 1199px) {
+        width: 550px;
+        height: auto;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.progress-counter{
+    display: none;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 30px;
+    height: 19px;
+    border-radius: 10px;
+    background: rgba(3, 98, 128, 0.8);
+    z-index: 10;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ecf1f7;
+
+    @media (max-width: 1199px) {
+        display: block;
+    }
+
+    @media (max-width: 767px) {
+        left: 10px;
+        bottom: 13px;
+        width: 22px;
+        height: 12px;
+        line-height: 12px;
+        font-size: 8px;
+    }
+}
+
+.swiper-slide-image{
+    img{
+        border-radius: 20px;
+        
+        @media (max-width: 1199px) {
+            width: 100%;
+            height: 367px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 767px) {
+            height: 193px;
+        }
+    }
+
+}
+.swiper-pagination.swiper-image-pagination{
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.swiper-pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 15px;
+
+    @media (max-width: 767px) {
+        gap: 15px;
+    }
+}
+
+.swiper-image-pagination {
+    span{
+        opacity: 1;
+        width: 10px;
+        height: 10px;
+        background: #453c41 !important;
+    }
+
+}
+
+.swiper-image-pagination .swiper-pagination-bullet-active{
+    width: 15px;
+    height: 15px;
+    background: #036280 !important;
+
+    @media (max-width: 767px) {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.hotel-number-info-title {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 30px;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+}
+
+.hotel-number-info-title.mobile {
+    display: none;
+
+    @media (max-width: 1199px) {
+        margin: 0;
+        display: block;
+    }
+}
+
+.hotel-number-info-text-wrapper{
+    @media (max-width: 1199px) {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 15px;
+    }
+}
+
+.hotel-number-info-price {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 23px;
+
+    @media (max-width: 767px) {
+        font-size: 12px;
+    }
+}
+
+.hotel-number-info-price-text{
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+
+    @media (max-width: 1199px) {
+        margin: 0;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 8px;
+    }
+}
+
+.hotel-number-info-services {
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+
+    @media (max-width: 1199px) {
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 767px) {
+        margin-bottom: 15px;
+        grid-template-columns: repeat(3, 68px);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+    }
+}
+
+.hotel-number-info-services-item {
+    display: flex;
+    gap: 10px;
+    span{
+        font-weight: 400;
+        font-size: 18px;
+
+        @media (max-width: 767px) {
+            font-size: 8px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        gap: 5px;
+    }
+}
+
+.hotel-number-info-services-item-image{
+    width: 23px;
+    height: 23px;
+
+    @media (max-width: 767px) {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+.hotel-number-info-button{
+    display: flex;
+}
+
+.swiper-hotel-number-pagination{
+    display: none;
+
+    @media (max-width: 1199px) {
+        display: flex;
+    }
+    span {
+        border-radius: 100%;
+        stroke-width: 1px;
+        background: transparent;
+        border: 1px solid #fff; 
+        opacity: 1 !important;
+    }
+
+}
+
+.swiper-hotel-number-pagination .swiper-pagination-bullet-active{
+    width: 10px;
+    height: 10px;
+    background: #ffffff !important;
+}
+
+.swiper-button-prev-hotel-number{
+    left: 30px;
+}
+
+.swiper-button-next-hotel-number{
+    right: 30px;
+}
+.swiper-button-prev-hotel-number,
+.swiper-button-next-hotel-number {
+    width: 64px;
+    height: 84px;
+    top: 57% !important;
+
+    @media (max-width: 1199px) {
+        display: none;
+    }
+}
+
+.swiper-button-prev-hotel-number path,
+.swiper-button-next-hotel-number path {
+    stroke-linecap: round; 
+    stroke-linejoin: round;
+    stroke-width: 8px;
+    stroke: #ECF1F7;
+}
+
+
+.swiper-button-prev-hotel-number:hover path,
+.swiper-button-next-hotel-number:hover path {
+    fill: #ECF1F7;
+    transition: fill 0.5s ease;
+}
+
+.swiper-button-prev-hotel-number::after,
+.swiper-button-next-hotel-number::after {
+    display: none;
+}
+
+.swiper-button-prev-hotel-number.swiper-button-disabled,
+.swiper-button-next-hotel-number.swiper-button-disabled {
+    opacity: 0.7 !important;
+}
