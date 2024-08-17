@@ -107,7 +107,6 @@ ul {
 .cta-button.leave-request:hover {
   background: #018eba; }
 
-.prices-button,
 .contacts-button {
   width: 137px;
   height: 49px;
@@ -118,7 +117,6 @@ ul {
   font-size: 16px;
   color: #036280; }
   @media (max-width: 767px) {
-    .prices-button,
     .contacts-button {
       width: 78px;
       height: 22px;

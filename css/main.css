@@ -107,7 +107,6 @@ ul {
 .cta-button.leave-request:hover {
   background: #018eba; }
 
-.prices-button,
 .contacts-button {
   width: 137px;
   height: 49px;
@@ -118,7 +117,6 @@ ul {
   font-size: 16px;
   color: #036280; }
   @media (max-width: 767px) {
-    .prices-button,
     .contacts-button {
       width: 78px;
       height: 22px;
@@ -471,7 +469,6 @@ ul {
   align-items: center;
   flex-direction: column;
   width: 100% !important;
-  height: 480px;
   background-color: #ecf1f7;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
@@ -484,7 +481,8 @@ ul {
 
 .hotel-number-content {
   padding: 60px 30px;
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
   @media (max-width: 1199px) {
     .hotel-number-content {
       width: 630px;
@@ -663,6 +661,33 @@ ul {
 
 .hotel-number-info-button {
   display: flex; }
+
+.prices-table {
+  padding-top: 35px; }
+  @media (max-width: 1199px) {
+    .prices-table {
+      padding-top: 5px;
+      width: 520px; } }
+  @media (max-width: 767px) {
+    .prices-table {
+      padding-top: 0;
+      max-width: 280px; } }
+  .prices-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; }
+  .prices-table th, .prices-table td {
+    border: 1px solid #036280;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 18px; }
+    @media (max-width: 1199px) {
+      .prices-table th, .prices-table td {
+        font-size: 12px; } }
+    @media (max-width: 767px) {
+      .prices-table th, .prices-table td {
+        font-size: 6px;
+        padding: 4px; } }
 
 .swiper-hotel-number-pagination {
   display: none; }

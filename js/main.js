@@ -22,28 +22,6 @@ ctaButton.forEach(item =>{
 const container = document.querySelector(".container-prices");
 const image = document.querySelector(".prices-image");
 
-
-// Добавляем обработчики событий на все кнопки
-document.querySelectorAll(".prices-button").forEach(button => {
-    button.addEventListener('click', () => {
-        container.classList.remove('none');
-        document.body.style.overflow = 'hidden';
-    });
-});
-
-// Обработчик события на документе
-document.addEventListener('click', (event) => {
-    const isClickInsideImage = image && image.contains(event.target);
-    const isClickInsideButton = event.target.closest('.prices-button');
-
-    if (!isClickInsideImage && !isClickInsideButton) {
-        container.classList.add('none');
-        document.body.style.overflow = '';
-    }
-});
-
-
-
 document.getElementById('header-hamburger-menu').addEventListener('click', function () {
     const popupMenu = document.getElementById('header-popup-menu');
     const navItems = document.querySelectorAll('.nav-links-el');

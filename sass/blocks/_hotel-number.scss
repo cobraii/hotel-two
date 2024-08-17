@@ -52,7 +52,6 @@
     align-items: center;
     flex-direction: column;
     width: 100% !important;
-    height: 480px;
     background-color: #ecf1f7;
     border-radius: 30px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -68,7 +67,7 @@
 .hotel-number-content {
     padding: 60px 30px;
     display: flex;
-
+    flex-wrap: wrap;
     @media (max-width: 1199px) {
         width: 630px;
         padding: 40px;
@@ -294,6 +293,42 @@
 .hotel-number-info-button{
     display: flex;
 }
+
+.prices-table{
+    padding-top: 35px;
+
+    @media (max-width: 1199px) {
+        padding-top: 5px;
+        width: 520px;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 0;
+        max-width: 280px;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        border: 1px solid #036280;
+        padding: 8px;
+        font-weight: 600;
+        font-size: 18px;
+
+        @media (max-width: 1199px) {
+            font-size: 12px;
+        }
+
+        @media (max-width: 767px) {
+            font-size: 6px;
+            padding: 4px;
+        }
+    }
+
+}
+
 
 .swiper-hotel-number-pagination{
     display: none;
