@@ -1445,7 +1445,6 @@ ul {
 .contacts-button-container {
   display: flex; }
 
-.container-prices,
 .flutter {
   overflow: hidden;
   width: 100%;
@@ -1459,14 +1458,6 @@ ul {
   z-index: 100;
   backdrop-filter: blur(7px);
   background: rgba(77, 77, 77, 0.5); }
-
-.container-prices {
-  padding: 0 20px; }
-  .container-prices img {
-    height: 600px; }
-    @media (max-width: 766px) {
-      .container-prices img {
-        height: auto; } }
 
 .form {
   padding: 60px;
@@ -1524,6 +1515,7 @@ ul {
   cursor: pointer; }
   @media (max-width: 766px) {
     .form-prev-image {
+      background-color: #ecf1f7;
       width: 15px;
       height: 12px; } }
 
